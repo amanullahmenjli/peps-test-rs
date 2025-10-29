@@ -19,7 +19,7 @@ jobs:
             - name: Build
               run: cargo build
             - name: Step 3 - Use the Upload Artifact GitHub Action
-              uses: actions/upload-artifact@v2
+              uses: actions/upload-artifact@v4
               with:
                 name: assets-for-download
                 path: target
