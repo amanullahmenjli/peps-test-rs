@@ -2265,8 +2265,9 @@ checksum = "13c2bddecc57b384dee18652358fb23172facb8a2c51ccc10d74c157bdea3292"
 
 [[package]]
 name = "supabase-lib-rs"
-version = "0.5.4"
-source = "git+https://github.com/nizovtsevnv/supabase-lib-rs#da5677e52d601d928cb78d81247d96d8672f2669"
+version = "0.5.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fdf658e1a59788dbbc4449d306f28f0fdb9992bbace0f0539d4d48ee40e0da77"
 dependencies = [
  "anyhow",
  "async-trait",
