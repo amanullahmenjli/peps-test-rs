@@ -1,0 +1,9 @@
+[package]
+name = "peps-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = "1.0.228"
+supabase-lib-rs = {git = "https://github.com/nizovtsevnv/supabase-lib-rs"} 
+tokio = { version = "1.0", features = ["full"] }
